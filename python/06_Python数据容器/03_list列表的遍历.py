@@ -31,3 +31,20 @@ def list_for_func():
         print(x)
 
 list_for_func()
+
+
+#练习
+Leslie_list=[1,2,3,4,5,6,7,8,9,10]
+lucifer_list=[]
+for x in Leslie_list:
+    if x % 2 == 0:
+        lucifer_list.append(x)
+print(lucifer_list)
+
+Lucifer_list=[]
+x=0
+while x < len(Leslie_list):
+    if Leslie_list[x] % 2 == 0:
+        Lucifer_list.append(Leslie_list[x])
+    x+=1
+print(Lucifer_list)
