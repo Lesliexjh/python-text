@@ -55,3 +55,13 @@ print(count)
 my_list=['l','u','s','f','e','r']
 count= len(my_list)
 print(count)
+
+
+
+#练习
+my_list=[21,25,21,23,22,20]
+my_list.append(31)
+my_list.extend([29,33,30])
+print(my_list[0])
+print(my_list[-1])
+print(my_list.index(31))
