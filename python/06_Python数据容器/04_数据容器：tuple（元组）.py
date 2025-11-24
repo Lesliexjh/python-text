@@ -33,3 +33,15 @@ print(t8.index((4,5,6)))
 print(t7.count(('leslie',)))
 #len() 统计元组内的元素个数
 print(len(t8))
+
+# while循环遍历
+t10=(1,2,3,4,5,6,7,8,9)
+x=0
+while x<len(t1):
+    print(t1[x])
+    x=x+1
+
+#for循环遍历
+for x in t10:
+    print(x)
+
